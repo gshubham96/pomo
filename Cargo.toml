@@ -1,0 +1,9 @@
+[package]
+name = "pomo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rodio = "0.20.1"
+rand = "0.8.5"
